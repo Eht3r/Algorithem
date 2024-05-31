@@ -2,7 +2,7 @@ package Lv0;
 
 import java.util.Arrays;
 
-public class Kth_Number {
+public class Kth_Number { // K번째 수
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
 
