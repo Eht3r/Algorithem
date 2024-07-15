@@ -11,11 +11,11 @@ data class lecture(
 
 fun main() { // 강의실
     val N = readln().toInt()
-    var arr = Array<lecture?>(N) { null }
+    val arr = Array<lecture?>(N) { null }
 
     for (i in 0 until N) {
         val inputs = readln().split(" ").map { it.toInt() }
-        arr[i] = lecture(inputs[0], inputs[1], inputs[2]);
+        arr[i] = lecture(inputs[0], inputs[1], inputs[2])
     }
 
     arr.sortWith(compareBy({ it!!.start }, { it!!.end }))

@@ -6,7 +6,7 @@ fun main() {
 
     for (i in arr.indices) {
         arr[i] = readln().toInt()
-        avg += arr[i];
+        avg += arr[i]
     }
 
     print((avg / 5).toString() + "\n")

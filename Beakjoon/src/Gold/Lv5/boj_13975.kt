@@ -2,7 +2,7 @@ package Gold.Lv5
 
 import java.util.*
 
-fun main(args: Array<String>): Unit = with(System.`in`.bufferedReader()) {
+fun main(): Unit = with(System.`in`.bufferedReader()) {
     val T = readLine().toInt()
 
     val pq = PriorityQueue<Long>()

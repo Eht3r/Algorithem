@@ -1,11 +1,8 @@
 package Lv2;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
-import java.util.stream.Stream;
 
 public class pro_42883 {
     public String solution(String number, int k) {

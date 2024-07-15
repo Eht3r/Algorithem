@@ -1,6 +1,6 @@
 package Silver.Lv4
 
-fun main(args: Array<String>) {
+fun main() {
     val N: Int = readln().toInt()
     val people = readln().split(" ").map { it.toInt() }.toTypedArray()
     var temp = 0
